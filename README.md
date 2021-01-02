@@ -1,12 +1,16 @@
 
-# printHelpers
+[![Arduino CI](https://github.com/RobTillaart/Optoma/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/RobTillaart/Optoma/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/RobTillaart/Optoma.svg?maxAge=3600)](https://github.com/RobTillaart/Optoma/releases)
+
+# Optoma
 
 Arduino library to control Optoma W305ST beamer over RS232.
 
 ## Description
 
-The Optoma library contains functions that help to controlthe beamer from 
-an Arduino. 
+The Optoma library contains functions that help to control 
+the beamer from an Arduino. 
 
 The library is tested with an UNO and an Optoma W305ST Beamer. 
 The commands can work on other Optoma Beamers 
@@ -35,7 +39,7 @@ In theory one could have multiple beamers on one RS232 port (never seen or teste
 - **switchOn()** idem
 - **switchOff()** idem
 - **increaseVKS()** VKS - Vertical KeyStone
-- **decreaseVKS()**
+- **decreaseVKS()** VKS - Vertical KeyStone
 
 ## Future
 
