@@ -65,6 +65,8 @@ unittest(test_constructor)
 {
   fprintf(stderr, "VERSION: %s\n", "-");
 
+  Optoma beamer;
+
   beamer.init(22);
   assertEqual(9600, beamer.getBaudrate());
 
