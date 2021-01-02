@@ -11,7 +11,7 @@
 //  0.1.1   2020-07-09  initial release
 //  0.1.2   2020-01-02  arduino-CI 
 
-#include "Optoma.h"
+#include "optoma.h"
 
 Optoma::Optoma(HardwareSerial* stream)
 {
