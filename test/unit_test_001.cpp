@@ -37,7 +37,7 @@
 
 
 #include "Arduino.h"
-#include "Optoma.h"
+#include "optoma.h"
 
 
 unittest_setup()
