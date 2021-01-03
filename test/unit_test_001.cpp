@@ -75,8 +75,6 @@ unittest(test_constructor)
   assertTrue(beamer.isOn());
   beamer.switchOff();
   assertFalse(beamer.isOn());
-  
-  assertEqual(1, 1);
 }
 
 
