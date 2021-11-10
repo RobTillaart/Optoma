@@ -10,9 +10,11 @@
 // Test with TeraTerm or an Optoma beamer)
 // TeraTerm: Newline Receive mode = CR + LF + 9600 baud.
 
+
 #include "optoma.h"
 
 Optoma beamer;
+
 
 void setup()
 {
@@ -35,7 +37,10 @@ void setup()
   beamer.switchOff();
 }
 
+
 void loop()
 {
-
 }
+
+
+// -- END OF FILE --

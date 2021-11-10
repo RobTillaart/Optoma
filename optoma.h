@@ -7,7 +7,11 @@
 // PUPROSE: Arduino library to control Optoma W305ST beamer over RS232. 
 //     URL: https://github.com/RobTillaart/Optoma
 
+
 #include "Arduino.h"
+
+#define OPTOMA_LIB_VERSION        (F("0.1.2"))
+
 
 class Optoma
 {
@@ -27,12 +31,13 @@ public:
 
 private:
   HardwareSerial* _stream;
+
   int      _ID = 0;
   bool     _on = false;
   uint32_t _baudrate = 9600;
 
   void     sendID();
-
 };
+
 
 // -- END OF FILE --
