@@ -42,11 +42,11 @@ other HW or SW Serial are possible.
 The ID is used to address a specific beamer.
 In theory one could have multiple beamers on one RS232 port (never seen or tested).
 - **uint32_t getBaudrate()** return set baud rate.
-- **switchOn()** idem.
-- **switchOff()** idem.
+- **void switchOn()** idem.
+- **void switchOff()** idem.
 - **bool isOn()** idem.
-- **increaseVKS()** VKS - Vertical KeyStone. check datasheet.
-- **decreaseVKS()** VKS - Vertical KeyStone. check datasheet.
+- **void increaseVKS()** VKS - Vertical KeyStone. check datasheet.
+- **void decreaseVKS()** VKS - Vertical KeyStone. check datasheet.
 
 
 ## Future
