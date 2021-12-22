@@ -39,6 +39,7 @@
 
 unittest_setup()
 {
+  fprintf(stderr, "OPTOMA_LIB_VERSION: %s\n", (char *) OPTOMA_LIB_VERSION);
 }
 
 unittest_teardown()
@@ -48,8 +49,6 @@ unittest_teardown()
 
 unittest(test_constructor)
 {
-  fprintf(stderr, "VERSION: %s\n", (char *) OPTOMA_LIB_VERSION);
-
   Optoma beamer;
 
   beamer.init(22);
