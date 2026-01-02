@@ -6,6 +6,7 @@
 //
 //  Test with TeraTerm or an Optoma beamer)
 //  TeraTerm: Newline Receive mode = CR + LF + 9600 baud.
+//  Note: the optoma class uses Serial
 
 
 #include "optoma.h"
